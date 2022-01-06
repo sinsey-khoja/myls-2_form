@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="">
+        <p>
+            <label for="name">Ismingiz:</label>
+            <input type="text" id="name">
+        </p>
+        <!-- for + id label va inputni ozaro bog'lidi -->
+        <p>
+            <label for="surname">Familyangiz:</label>
+            <input type="text" id="surname">
+         </p>   
+        <!-- type="text" - matin kritish uchun ishlatiladi -->
+        <p>
+            <label for="pochta">Emailingizni kriting:</label>
+            <input type="email" id="pochta">
+        </p>
+        <!-- type="email" - pochta kritish joyi -->
+        <p>
+            <label for="parol">Parolingizni kriting:</label>
+            <input type="password">
+        </p>
+        <!-- type="password" - yozganda ****** korinishida chqadi -->
+        <p>
+            <label for="num">Telefon raqamingizni kriting:</label>
+            <input type="number" id="num">   
+        </p>
+        <p>
+            <label for="sana">Tugilgan sana:</label>
+            <input type="date">
+        </p>
+        <!-- type="date" - sanalar kritish -->
+        <p>Qaysi ijtimoiy tarmoqlardan foydlanasiz:</p>
+        <p>
+            <label>Instagram:
+                <input type="checkbox">
+            </label>
+            <label>Telegram:
+                <input type="checkbox">
+            </label>
+            <label>Tik-Tok:
+                <input type="checkbox">
+            </label>
+        </p>
+        <!-- Checkbox - belgolash uchun joy -->
+        <p>Jinsingiz:</p>
+        <label>Erkak
+            <input type="radio" name="jins">
+        </label>
+        <label>ayol
+            <input type="radio" name="jins">
+        </label>
+        <!-- radio + name inputlani boglidi va 2tasi xechqchon belglanmidi -->
+        <p>Yashash joyingiz:</p>
+        <select name="" id="">
+            <option disabled selected value="">Shahar:</option>
+            <option value="">Toshkent</option>
+            <option value="">Andijon</option>
+            <option value="">Namangan</option>
+            <option value="">Xorazim</option>
+            <option value="">Navoi</option>
+            <option value="">Qashqadaro</option>
+            <option value="">Jizzah</option>
+        </select>
+        <!-- select + option - variantlar bilan tanlash imkoniyati -->
+        <p>Rasimingizni krting:</p>
+        <input type="file">
+        <p>
+            <input type="submit" value="Jonatish">
+            <input type="reset" value="Boshqatdan Yozish">
+        </p>
+
+    </form>
+</body>
+</html>
